@@ -1,0 +1,29 @@
+<!-- res/layout/item_info_box.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:layout_margin="8dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_gray_bg"
+    android:padding="8dp">
+
+    <!-- Title of the info box -->
+    <TextView
+        android:id="@+id/infoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Title"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Information displayed in the box -->
+    <TextView
+        android:id="@+id/infoContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Content"
+        android:textSize="14sp"
+        android:gravity="center"/>
+</LinearLayout>
